@@ -1,10 +1,14 @@
 {
-  "name": "rssterm",
+  "name": "@allan_muturi/rssterm",
   "version": "1.0.1",
   "description": "An rss cli app",
   "repository": {
     "type": "git",
     "url": "https://github.com/Allan-1/rss-term"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/",
+    "access": "public"
   },
   "main": "app.js",
   "scripts": {
