@@ -14,7 +14,7 @@ Get rss feeds to your terminal
       rssterm -u [rssurl]
 
     example:
-      rss -u https://media.rss.com/espionagevr/feed.xml
+      rssterm -u https://media.rss.com/espionagevr/feed.xml
 
 # Contribution
 
