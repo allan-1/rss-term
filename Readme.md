@@ -4,17 +4,21 @@ Get rss feeds to your terminal
 
 # Install
 
-`npm install --global rssterm`
+    git clone https://github.com/Allan-1/rss-term.git
+
+    cd rss-term
+
+    npm install
 
 # Usage
 
-    $rssterm --help
+    $node . --help
 
     usage:
-      rssterm -u [rssurl]
+      node . -u [rssurl]
 
     example:
-      rssterm -u https://media.rss.com/espionagevr/feed.xml
+      node . -u https://media.rss.com/espionagevr/feed.xml
 
 # Contribution
 

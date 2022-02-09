@@ -10,9 +10,7 @@ const parser = new Parser();
 
 program.name('rssterm').description('Cli to rss utilities').version('1.0.0');
 
-program
-  .argument('<string>', 'rss url')
-  .option('-u, --url <type>', 'Rss url', String);
+program.option('-u, --url <type>', 'Rss url', String);
 
 program.parse(process.argv);
 
