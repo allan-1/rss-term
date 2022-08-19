@@ -1,13 +1,13 @@
 {
   "name": "@allan-1/rssterm",
-  "version": "1.0.2",
-  "description": "An rss cli app",
+  "version": "1.0.3",
+  "description": "Read your rss news on the terminal",
   "repository": {
     "type": "git",
     "url": "https://github.com/Allan-1/rss-term"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/",
+    "registry": "https://npm.pkg.github.com/allan-1",
     "access": "public"
   },
   "main": "app.js",
@@ -17,7 +17,9 @@
   "keywords": [
     "cli",
     "rss",
-    "cli-app"
+    "cli-app",
+    "terminal",
+    "bash"
   ],
   "author": {
     "name": "Allan Muturi Maina",
@@ -25,14 +27,8 @@
     "url": "https://www.github.com/allan-1"
   },
   "bin": {
-    "rssterm": "app.js"
+    "rssterm": "bin/app.js"
   },
-  "engines": {
-    "node": ">=10"
-  },
-  "files": [
-    "app.js"
-  ],
   "license": "MIT",
   "dependencies": {
     "commander": "^9.0.0",
